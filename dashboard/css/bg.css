@@ -1,0 +1,80 @@
+#insidetag {
+    position: relative;
+}
+
+#sw-bg {
+    position: relative;
+}
+#sw-bg::before {
+    content: "";
+    position: absolute;
+    background-position: center;
+    width: 100%; height: 100%;
+    background-image: url(../img/modalidad/sw.jpg);
+    filter: opacity(50%);
+}
+
+/* EggWars */
+#ew-bg {
+    position: relative;
+}
+#ew-bg::before {
+    content: "";
+    position: absolute;
+    background-position: center;
+    width: 100%; height: 100%;
+    background-image: url(../img/modalidad/ew.jpg);
+    filter: opacity(50%);
+}
+
+/* KitPvP */
+#kitpvp-bg {
+    position: relative;
+}
+#kitpvp-bg::before {
+    content: "";
+    position: absolute;
+    background-position: center;
+    width: 100%; height: 100%;
+    background-image: url(../img/modalidad/kitpvp.png);
+    filter: opacity(50%);
+}
+
+/* Practice */
+#prac-bg {
+    position: relative;
+}
+#prac-bg::before {
+    content: "";
+    position: absolute;
+    background-position: center;
+    width: 100%; height: 100%;
+    background-image: url(../img/modalidad/prac.png);
+    filter: opacity(50%);
+}
+
+/* Practice */
+#pvpg-bg {
+    position: relative;
+}
+#pvpg-bg::before {
+    content: "";
+    position: absolute;
+    background-position: center;
+    width: 100%; height: 100%;
+    background-image: url(../img/modalidad/pvpg.png);
+    filter: opacity(50%);
+}
+
+/* CHG */
+#chg-bg {
+    position: relative;
+}
+#chg-bg::before {
+    content: "";
+    position: absolute;
+    background-position: center;
+    width: 100%; height: 100%;
+    background-image: url(../img/modalidad/chg.png);
+    filter: opacity(50%);
+}
